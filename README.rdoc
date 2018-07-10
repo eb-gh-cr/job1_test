@@ -2,13 +2,11 @@
 
 === установка
 
- ```
  установить rvm
  bundle
  установить редис
  rake db:seed
  rails s
- ```
 
 
 
@@ -16,7 +14,6 @@
 
 === тестирование
 
- ```
  curl -i -H "Accept: application/json" "localhost:3000/api/products"
 
 
@@ -26,4 +23,3 @@
    http://localhost:3000/api/cart
 
  curl -i -H "Accept: application/json" "localhost:3000/api/cart"
- ```
