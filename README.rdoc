@@ -1,0 +1,7 @@
+== README
+
+установить rvm
+bundle
+установить редис
+rake db:seed
+rails s
